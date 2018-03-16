@@ -1,0 +1,8 @@
+<!-- Generated template for the ReddittopicComponent component -->
+<ion-content>
+  <ion-card *ngFor="let topic of topics">
+   
+    <a [href]="topic.data.url"><h4>{{ topic.data.title }}</h4></a>
+  </ion-card>
+
+</ion-content>
